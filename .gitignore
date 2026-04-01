@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+token.json
+credentials.json
+state.json
+
+# Logs
+logs/
+*.log
+
+# Build or generated output
+output/
+*.pptx
+
+# Local backup or cache
+.skill-sync/
+
+# Local agent host installs and test sandboxes
+.claude/
+.openclaw/
+.codex-home/
+tmp/
+tmp-*/
